@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
   }
-  
+  #logoimgur{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 13px;
+  }
   body {
     width: 100vw;
     z-index: 1;
@@ -13,12 +19,17 @@
     padding-bottom: 1em;
     background-color: #180341;
   }
+
   .navbar {
+    /* border: 1px solid red; */
+  
     background-size:cover;
     padding: 1em;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+
+   
   }
   .inner {
     display: flex;

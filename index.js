@@ -10,6 +10,7 @@ catch(e){
     console.log(`Error:${e}`)
 }
 }
+
 movie()
 var div1=document.getElementById("product");
 function show(movie){
